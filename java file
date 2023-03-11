@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class RandomNumberGenerator 
+{
+ public static void main(String[] args) 
+ {
+  Random random = new Random();
+  int randomNumber = random.nextInt(900000) + 100000;
+  System.out.println("The 6 digit Random number is: " + randomNumber);
+  }
+}
